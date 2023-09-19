@@ -5,6 +5,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: #f6f8f9;
+    
+}
+
 header {
     background-color: white;
     padding: 10px 0;
@@ -12,10 +17,7 @@ header {
     
 }
 
-body {
-    background-color: #f6f8f9;
-    
-}
+/* LOGO */
 
 .logo {    
     vertical-align: middle;
@@ -27,5 +29,47 @@ body {
     font-weight: bold;
     vertical-align: middle;
 
+}
+
+/* FINE LOGO */
+
+.container {
+    background-color: white;
+    height: 300px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+/* BOTTONI */
+
+.addtask {
+    background-color: #47adf1;
+    padding: 0.5em;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    margin: 15px 0 10px 50px;
+    font-weight: bold;
+}
+
+.addsection {
+
+    padding: 0.5em;
+    border-radius: 6px;
+    border: none;
+    background-color: white;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    font-weight: bold;
+
+}
+
+/* FINE BOTTONI */
+
+hr {
+    background-color: #f6f8f9;
+    height: 3px;
+    border: 0;
+    
 }
 
