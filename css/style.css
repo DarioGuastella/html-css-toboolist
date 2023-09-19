@@ -35,9 +35,10 @@ header {
 
 .container {
     background-color: white;
-    height: 300px;
+    height: auto;
     width: 80%;
     margin: 40px auto;
+    padding-bottom: 30px;
 }
 
 /* BOTTONI */
@@ -79,6 +80,7 @@ ul {
 
 li {
     font-weight: 400;
+    margin: 20px 0;
 }
 
 .checked {
@@ -93,6 +95,18 @@ li {
     text-align: center;
 }
 
+.unchecked {
+    border: 1px solid red;
+    padding: 1px;
+    border-radius: 50%;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+}
+
 h4 {
     display: inline-block;
     margin-left: 10px;
@@ -100,14 +114,41 @@ h4 {
     font-weight: 400;
 }
 
-.editorial {
-    background-color: #47adf1;
+.editorial, .goals, .recruiting, .mobile, .website, .sales {
     color: white;
     border: none;
     padding: 0.5em;
     border-radius: 12px;
+
+}
+
+.editorial {
+    background-color: #47adf1;
+    
+}
+
+.goals {
+    background-color: #9C72E3;
+
+}
+
+.recruiting {
+    background-color: #63BEA9;
+}
+
+.mobile {
+    background-color: #F39C34;
+}
+
+.website {
+    background-color: #D563A0;
+}
+
+.sales {
+    background-color: #B1C729;
 }
 
 .task-item {
     margin: 20px 0 10px 50px;
 }
+
