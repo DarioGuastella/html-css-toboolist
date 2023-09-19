@@ -73,3 +73,41 @@ hr {
     
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    font-weight: 400;
+}
+
+.checked {
+    border: 1px solid #63BEA9;
+    padding: 1px;
+    border-radius: 50%;
+    color: #63BEA9;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+}
+
+h4 {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.editorial {
+    background-color: #47adf1;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 12px;
+}
+
+.task-item {
+    margin: 20px 0 10px 50px;
+}
